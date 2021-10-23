@@ -10,6 +10,7 @@ $jsondata = $testData;
 $amount = $jsondata->additional_data->amount->amount;
 $currency = $jsondata->additional_data->amount->currency;
 $hash = $jsondata->additional_data->hash;
+$tgid = $jsondata->data->name;
 
 $text = "deposite recived amount : $amount and currency = $currency and finally hash = $hash";
 file_put_contents('data.txt', $text);
