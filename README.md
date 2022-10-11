@@ -15,4 +15,3 @@
 
 </br>
 
-### **My Channel https://t.me/TGBotsByLazy**
